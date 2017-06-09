@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kripke>
+	<status>
+		S1,S2,S3,S4,S5,S6,S7,S8,S9
+	</status>
+	<relation>
+		<S1> S2 </S1>
+		<S2> S4,S5 </S2>
+		<S3> S2 </S3>
+		<S4> S1,S5,S7 </S4>
+		<S5> S7,S8 </S5>
+		<S6> S3,S5,S8 </S6>
+		<S7> S8 </S7>
+		<S8> S9 </S8>
+		<S9> S6 </S9>
+	</relation>
+	<proposition>
+		hole,goal
+	</proposition>
+	<label>
+		<S3> hole </S3>
+		<S4> hole </S4>
+		<S6> hole </S6>
+		<S9> goal </S9>
+	</label>
+</Kripke>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="jcvos2_support"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(WORKSPACE)\jcvos2\stdext&quot;;&quot;$(WORKSPACE)\jcvos2\jcparam&quot;;&quot;$(WORKSPACE)\jcvos2\jcapp&quot;;&quot;$(WORKSPACE)\jcvos2\jcfile&quot;"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="stdext.lib jcparam.lib jcapp.lib"
+		AdditionalLibraryDirectories="$(WORKSPACE)\jcvos2\lib\$(ConfigurationName)"
+	/>
+</VisualStudioPropertySheet>

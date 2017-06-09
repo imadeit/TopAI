@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kripke>
+	<status>
+		S1,S2,S3,S4,S5
+	</status>
+	<relation>
+		<S1> S2,S3 </S1>
+		<S2> S2,S3,S4 </S2>
+		<S3> S3 </S3>
+		<S4> S5 </S4>
+		<S5> S4 </S5>
+	</relation>
+	<proposition>
+		p,q,r
+	</proposition>
+	<label>
+		<S1> p </S1>
+		<S2> r </S2>
+		<S3> q </S3>
+		<S4> q </S4>
+		<S5> p </S5>
+	</label>
+</Kripke>
